@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1723497975 source:g:\projects\embedded system projects\payment application project\payment app project\code\pay app\application\app.c
+	"app.h"
+
+1695390447 g:\projects\embedded system projects\payment application project\payment app project\code\pay app\card\card.h
+	"../LIB/STD_Types.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1723482637 g:\projects\embedded system projects\payment application project\payment app project\code\pay app\lib\std_types.h
+	<stdlib.h>
+
+1584209020 source:g:\projects\embedded system projects\payment application project\payment app project\code\pay app\application\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1723492979 source:g:\projects\embedded system projects\payment application project\payment app project\code\pay app\card\card.c
+	"card.h"
+
+1723498398 source:g:\projects\embedded system projects\payment application project\payment app project\code\pay app\server\server.c
+	"server.h"
+
+1723495506 source:g:\projects\embedded system projects\payment application project\payment app project\code\pay app\terminal\terminal.c
+	"terminal.h"
+
+1695385602 g:\projects\embedded system projects\payment application project\payment app project\code\pay app\terminal\terminal.h
+	"../LIB/STD_Types.h"
+	"../Card/card.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1723480711 g:\projects\embedded system projects\payment application project\payment app project\code\pay app\server\server.h
+	"../LIB/STD_Types.h"
+	"../Card/card.h"
+	"../Terminal/terminal.h"
+
+1723495370 g:\projects\embedded system projects\payment application project\payment app project\code\pay app\application\app.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	"../Card/card.h"
+	"../Terminal/terminal.h"
+	"../Server/server.h"
+
